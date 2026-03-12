@@ -39,8 +39,7 @@ function FeedbackForm({ addFeedback }) {
     if (!validate()) return;
 
     const feedbackData = {
-      ...form,
-      date: new Date().toLocaleString()
+      ...form
     };
 
     addFeedback(feedbackData);
@@ -112,5 +111,6 @@ function FeedbackForm({ addFeedback }) {
     </form>
   );
 }
+
 
 export default FeedbackForm;
