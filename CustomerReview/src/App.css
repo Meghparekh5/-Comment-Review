@@ -1,0 +1,76 @@
+body{
+font-family: Arial;
+background:	#a4907c;
+}
+
+.container{
+width:900px;
+margin:auto;
+}
+
+.title,h2{
+text-align:center;
+color:#ffffff;
+}
+
+.form{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+margin-bottom:30px;
+}
+
+input,textarea,select{
+width:100%;
+padding:10px;
+margin-top:10px;
+border-radius:6px;
+border:1px solid #ccc;
+}
+
+button{
+margin-top:10px;
+padding:10px 20px;
+border:none;
+background:	#8d7b68;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:	#c8b6a6;
+}
+
+.card{
+background:white;
+padding:15px;
+border-radius:10px;
+margin-top:15px;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.badge{
+background:#16a34a;
+color:white;
+padding:4px 10px;
+border-radius:5px;
+margin-right:10px;
+}
+
+.priority{
+background:#ef4444;
+color:white;
+padding:4px 10px;
+border-radius:5px;
+}
+
+.error{
+border:2px solid red;
+}
+
+.errorText{
+color:red;
+font-size:12px;
+}
